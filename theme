@@ -1,0 +1,14 @@
+{
+  "index.html": {
+    "type": "twig",
+    "content": "content here"
+  },
+  "style.css": {
+    "type": "css", 
+    "content": "body { color: red; }"
+  },
+  "script.js": {
+    "type": "javascript",
+    "content": "console.log('hello');"
+  }
+}
