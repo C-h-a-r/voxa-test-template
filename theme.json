@@ -8,7 +8,7 @@
     "content": "body { color: red; }"
   },
   "script.js": {
-    "type": "javascript",
+    "type": "js",
     "content": "console.log('hello');"
   }
 }
