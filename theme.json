@@ -4,7 +4,7 @@
     "content": "content here"
   },
   "style.css": {
-    "type": "css", 
+    "type": "css",
     "content": "body { color: red; }"
   },
   "script.js": {
@@ -12,23 +12,24 @@
     "content": "console.log('hello');"
   },
   "Schema": {
-  "type": "twig",
-  "content": {
-  "author": "Tebex",
-  "support_email": "support@tebex.io",
-  "config": [
-      {
-        "header": "Style",
-        "options": [
-              {
-                 "id": "primary-colour",
-                 "name": "Primary Colour",
-                 "default": "#000000",
-                 "description": "Select the primary colour. Set to black (#000000) to revert to theme default colour",
-                 "type": "colour-picker"
-              }
-        ]
-      }
+    "type": "twig",
+    "content": {
+      "author": "Tebex",
+      "support_email": "support@tebex.io",
+      "config": [
+        {
+          "header": "Style",
+          "options": [
+            {
+              "id": "primary-colour",
+              "name": "Primary Colour",
+              "default": "#000000",
+              "description": "Select the primary colour. Set to black (#000000) to revert to theme default colour",
+              "type": "colour-picker"
+            }
+          ]
+        }
+      ]
     }
   }
 }
